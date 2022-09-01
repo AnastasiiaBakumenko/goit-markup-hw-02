@@ -1,10 +1,15 @@
 body
 {
     font-family: Roboto, sans-serif;
+    color:#212121;
+    font-size: 14px;
 }
 footer
 {
     background-color: #2F303A;
+}
+address {
+    font-style: normal
 }
 a, .contact
 {
@@ -36,42 +41,6 @@ color: #2196F3;
 {
 color: #2196F3;
 }
-.button-all
-{
-    width: 73px;
-        height: 38px;
-        left: 512px;
-        top: 174px;
-}
-.button-web
-{
-    width: 125px;
-        height: 38px;
-        left: 593px;
-        top: 174px;
-}
-.button-app
-{
-    width: 112px;
-        height: 38px;
-        left: 726px;
-        top: 174px;
-}
-.button-design
-{
-    width: 103px;
-        height: 38px;
-        left: 846px;
-        top: 174px;
-}
-.button-marketing
-{
-    width: 130px;
-        height: 38px;
-        left: 957px;
-        top: 174px;
-}
-
 .contact .contact-adress
 {
     color: rgba(255,255,255,60%);
@@ -81,3 +50,64 @@ color: #2196F3;
 {
     color:#fff;
 }
+.button
+{
+    font-size: 16px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.button:hover,
+.button:focus
+{
+    background-color:#2196F3;
+}
+.project-name
+{
+    font: size 18px;
+    font-weight: 700;
+}
+.project-type
+{
+    color:#757575;
+    font-size: 16px;
+}
+.hero-title
+{
+    font-size: 44px;
+}
+.order 
+{
+    background-color: #2196F3;
+    color:#fff;
+    font-weight: 700;
+    cursor:pointer;
+    border:none;
+}
+.features-title
+{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.features-text
+{
+    color:#757575;
+    line-height: 1.5;
+}
+.works,
+.team 
+{
+    font-size: 36px;
+    font-weight: 700;
+}
+.team-name
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.team-position
+{
+    font-size: 16px;
+    color: #757575;
+}
+
