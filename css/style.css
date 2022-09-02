@@ -4,6 +4,7 @@ body
     color:#212121;
     font-size: 14px;
     background-color: #F5F5F5;
+    line-height: 1.5;
 }
 footer
 {
@@ -32,22 +33,45 @@ text-decoration: none;
 .logo-blue
 {
     color:#2196F3;
+    letter-spacing: 0.03em;
 }
 .logo-studio
 {
 color:#fff;
+letter-spacing: 0.03em;
+}
+.navigation
+{
+    list-style: none;
+    letter-spacing: 0.02em;
 }
 .navigation-point 
 {
+    font-weight:500;
     color: #212121;
+}
+.navigation-point-active
+{
+    color:#2196F3;
 }
 .navigation-point:hover,
 .navigation-point:focus
 {
 color: #2196F3;
 }
+.contact-links,
+.features,
+.works,
+.team,
+.portfolio-button,
+.portfolio-list,
+.contact
+{
+    list-style: none;
+}
 .contact-links .link
 {
+    font-weight:500;
     color: #757575;
 }
 .contact-links .link:hover,
@@ -55,41 +79,61 @@ color: #2196F3;
 {
 color: #2196F3;
 }
-.contact .contact-adress
+.contact .contact-adress,
+.contact .contact-mail,
+.contact .contact-phone
 {
-    color: rgba(255,255,255,60%);
+    line-height: 1.7;
 }
-.contact-adress:hover,
-.contact-adress:focus
+.contact .contact-adress
 {
     color:#fff;
 }
+.contact .contact-mail,
+.contact .contact-phone
+{
+    color: rgba(255,255,255,60%);
+}
+
 .button
 {
     font-size: 16px;
     font-weight: 500;
     cursor:pointer;
     border:none;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
 .button:hover,
 .button:focus
 {
     background-color:#2196F3;
+    color:#fff;
 }
 .project-name
 {
-    font: size 18px;
+    font-size: 18px;
     font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .project-type
 {
     color:#757575;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
 }
 .hero-title
 {
     font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.4;
+    text-transform: uppercase;
 }
 .order 
 {
@@ -99,30 +143,41 @@ color: #2196F3;
     cursor:pointer;
     border:none;
 }
+.featur
+{
+    visibility: hidden;
+}
 .features-title
 {
     text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 .features-text
 {
     color:#757575;
+    font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.03em;
 }
-.works,
-.team 
+.works-title,
+.team-title
 {
     font-size: 36px;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 .team-name
 {
     font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.03em;
 }
 .team-position
 {
     font-size: 16px;
+    font-weight: 400;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
