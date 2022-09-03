@@ -148,6 +148,8 @@ color:#2196F3;
 }
 .hero-title
 {
+    background-color: #2F303A;
+    color: #fff;
     font-size: 44px;
     font-weight: 900;
     letter-spacing: 0.06em;
@@ -183,6 +185,10 @@ color:#2196F3;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.team-section
+{
+    background-color: #F5F4FA;
+}
 .works-title,
 .team-title
 {
@@ -191,6 +197,7 @@ color:#2196F3;
     line-height: 1.16;
     letter-spacing: 0.03em;
 }
+
 .team-name
 {
     font-size: 16px;
