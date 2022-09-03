@@ -22,10 +22,12 @@ text-decoration: none;
     font-family: Ralewey;
     font-weight: 700;
     font-size: 36px;
-    color:#212121
+    color:#212121;
+    line-height: 1.19;
 }
 .logo-adress {
     font-family: Ralewey;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     color: #212121
@@ -34,6 +36,7 @@ text-decoration: none;
 {
     color:#2196F3;
     letter-spacing: 0.03em;
+    line-height: 1.19;
 }
 .logo-studio
 {
@@ -43,14 +46,18 @@ letter-spacing: 0.03em;
 .navigation
 {
     list-style: none;
-    letter-spacing: 0.02em;
 }
 .navigation-point 
 {
     font-weight:500;
     color: #212121;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-
+.current
+{
+color: #2196F3;
+}
 .navigation-point:hover,
 .navigation-point:focus
 {
@@ -70,35 +77,50 @@ color: #2196F3;
 {
     font-weight:500;
     color: #757575;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 }
 .contact-links .link:hover,
 .contact-links .link:focus
 {
 color: #2196F3;
 }
-.contact .contact-adress,
-.contact .contact-mail,
-.contact .contact-phone
-{
-    line-height: 1.7;
-}
 .contact .contact-adress
 {
     color:#fff;
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 .contact .contact-mail,
 .contact .contact-phone
 {
     color: rgba(255,255,255,60%);
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+.contact .contact-adress:hover,
+.contact .contact-mail:hover,
+.contact .contact-phone:hover
+{
+color:#2196F3;
+}
+.contact .contact-adress:focus,
+.contact .contact-mail:focus,
+.contact .contact-phone:focus
+{
+    color: #2196F3;
 }
 
 .button
 {
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     cursor:pointer;
     border:none;
-    line-height: 1.6;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -121,7 +143,7 @@ color: #2196F3;
     color:#757575;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
 .hero-title
@@ -129,16 +151,19 @@ color: #2196F3;
     font-size: 44px;
     font-weight: 900;
     letter-spacing: 0.06em;
-    line-height: 1.4;
+    line-height: 1.36;
     text-transform: uppercase;
 }
 .order 
 {
     background-color: #2196F3;
+    font-family: inherit;
     color:#fff;
     font-weight: 700;
     cursor:pointer;
     border:none;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 .featur
 {
@@ -148,13 +173,14 @@ color: #2196F3;
 {
     text-transform: uppercase;
     font-weight: 700;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 .features-text
 {
     color:#757575;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .works-title,
@@ -162,12 +188,14 @@ color: #2196F3;
 {
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.16;
     letter-spacing: 0.03em;
 }
 .team-name
 {
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 .team-position
@@ -175,6 +203,7 @@ color: #2196F3;
     font-size: 16px;
     font-weight: 400;
     color: #757575;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 
